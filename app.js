@@ -44,6 +44,8 @@ class Book {
       const form = document.querySelector('#book-form');
       container.insertBefore(div, form);
   
+        
+        
       // Vanish in 3 seconds
       setTimeout(() => document.querySelector('.alert').remove(), 3000);
     }
@@ -107,6 +109,8 @@ class Book {
       // Instatiate book
       const book = new Book(title, author, isbn);
   
+        
+        
       // Add Book to UI
       UI.addBookToList(book);
   
